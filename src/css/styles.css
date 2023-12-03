@@ -10,7 +10,7 @@ p {
 }
 
 html {
-  background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+  background-image: linear-gradient(to right, #cea8f7, #e4d5f5);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,7 +18,7 @@ html {
 body {
   overflow-x: hidden;
   max-width: 100%;
-  background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+  background-image: linear-gradient(to right, #cea8f7, #e4d5f5);
   background-repeat: no-repeat;
   background-size: cover;
 }
