@@ -104,6 +104,7 @@ function onScrollHandler() {
   }
 }
 
+
 async function onFormSybmit(e) {
   e.preventDefault();
   options.params.q = searchInput.value.trim();
@@ -113,6 +114,7 @@ async function onFormSybmit(e) {
   options.params.page = 1;
   galleryEl.innerHTML = '';
   reachedEnd = false;
+
 
   try {
     showLoader();
@@ -132,5 +134,7 @@ async function onFormSybmit(e) {
   } catch (err) {
     Notify.failure(err);
     hideLoader();
+
   }
+
 }
